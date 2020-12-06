@@ -16,4 +16,4 @@ class TestPuzzle(unittest.TestCase):
 #...##....#
 .#..#...#.#"""
 
-        self.assertEquals(solve_puzzle(test_data),7)
+        self.assertEqual(solve_puzzle(test_data),7)

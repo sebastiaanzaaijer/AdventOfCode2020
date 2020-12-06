@@ -39,7 +39,7 @@ hgt:59cm ecl:zzz
 eyr:2038 hcl:74454a iyr:2023
 pid:3556412378 byr:2007"""
 
-        self.assertEquals(solve_puzzle(example_input),0)
+        self.assertEqual(solve_puzzle(example_input),0)
 
     def test_valid(self):
         example_input = """pid:087499704 hgt:74in ecl:grn iyr:2012 eyr:2030 byr:1980
@@ -54,5 +54,5 @@ pid:545766238 ecl:hzl
 eyr:2022
 
 iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719"""
-        self.assertEquals(solve_puzzle(example_input),4)
+        self.assertEqual(solve_puzzle(example_input),4)
 

@@ -19,4 +19,4 @@ a
 a
 
 b"""
-        self.assertEquals(solve_puzzle(example_input),11)
+        self.assertEqual(solve_puzzle(example_input),11)

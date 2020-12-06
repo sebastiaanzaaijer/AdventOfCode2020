@@ -5,5 +5,5 @@ import unittest
 class TestPuzzle(unittest.TestCase):
     def test_example_input(self):
         example_input = ""
-        self.assertEquals(example_input,"")
+        self.assertEqual(example_input,"")
 
